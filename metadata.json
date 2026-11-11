@@ -1,0 +1,6 @@
+{
+  "name": "Sistem Notis Kerja Jalan JKR Port Dickson",
+  "description": "Sistem penjanaan dan pengesahan notis hebahan kerja jalan rasmi bagi Jabatan Kerja Raya (JKR) Daerah Port Dickson dan syarikat konsesi.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

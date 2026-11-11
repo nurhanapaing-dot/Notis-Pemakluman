@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .poster-font {
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  }
+  .ui-font {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+@media print {
+  body {
+    background: white !important;
+    padding: 0 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
